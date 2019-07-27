@@ -5,7 +5,17 @@ var nguoiDungService = new NguoiDungService();
 function getEle(id) {
     return document.getElementById(id);
 }
+
+
 var mangNguoiDung = [];
+
+$(document).ready(function() {
+        function themNguoiDung() {
+            console.log;
+        }
+
+    }
+}
 $(document).ready(function() {
         function themNguoiDung() {
             console.log;
