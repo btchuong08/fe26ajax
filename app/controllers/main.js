@@ -7,6 +7,14 @@ function getEle(id) {
 }
 var mangNguoiDung = [];
 $(document).ready(function() {
+        function themNguoiDung() {
+            console.log;
+        }
+
+    }
+}
+
+$(document).ready(function() {
 
     var ajaxNguoiDung = nguoiDungService.LayDanhSachNguoiDung();
     ajaxNguoiDung
