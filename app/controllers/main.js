@@ -17,6 +17,14 @@ $(document).ready(function() {
     }
 }
 $(document).ready(function() {
+        function themNguoiDung() {
+            console.log;
+        }
+
+    }
+}
+
+$(document).ready(function() {
 
     var ajaxNguoiDung = nguoiDungService.LayDanhSachNguoiDung();
     ajaxNguoiDung
